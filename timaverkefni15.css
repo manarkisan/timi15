@@ -5,6 +5,7 @@ body {
 .header-ex {
     background: aliceblue;
     display: flex;
+    justify-content: space-between;
     border: 1px solid gray;
     border-radius: 0.5rem;
     margin: 0;
@@ -13,7 +14,7 @@ body {
 }
 .nav-ex {
     display: flex;
-    align-items: end;
+    align-self: flex-end;
     gap: 1rem;
 }
 
